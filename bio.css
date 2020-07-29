@@ -80,3 +80,13 @@ a {
   height: 200px;
   margin-right: 20px;
 }
+
+.homeNav{
+display :flex;
+justify-content: center;
+
+
+}
+a{
+  padding: 20px;
+}
