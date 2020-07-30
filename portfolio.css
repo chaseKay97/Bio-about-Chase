@@ -41,7 +41,7 @@ blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
-}
+} 
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -51,7 +51,7 @@ table {
   }
   
   body {
-    background-color: #f1f1f1;
+    background-image: url(bio-texas.jpggi);
     padding: 20px;
     font-family: Arial;
   }
