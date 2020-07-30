@@ -102,6 +102,17 @@ table {
     width:100%;
     height: 400px;
   }
+  
+.homeNav{
+  display :flex;
+  justify-content: center;
+  
+  
+  }
+  a{
+    padding: 20px;
+  }
+  
 
   @media screen and (max-width: 600px) {
     .column, input[type=submit] {

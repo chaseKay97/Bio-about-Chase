@@ -51,7 +51,7 @@ table {
   }
   
   body {
-    background-image: url(bio-texas.jpggi);
+    background-image: url(bio-texas.jpg);
     padding: 20px;
     font-family: Arial;
   }
@@ -95,6 +95,17 @@ table {
     background-color: white;
     padding: 10px;
   }
+  
+.homeNav{
+  display :flex;
+  justify-content: center;
+  
+  
+  }
+  a{
+    padding: 20px;
+  }
+  
   
   /* Responsive layout - makes a two column-layout instead of four columns */
   @media screen and (max-width: 900px) {
