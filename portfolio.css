@@ -46,14 +46,34 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
 * {
     box-sizing: border-box;
   }
   
   body {
-    background-image: url(bio-texas.jpg);
+    background-color:#efeee7 ;
     padding: 20px;
     font-family: Arial;
+  }
+  a {
+    color: #d21034;
+  }
+  
+  .container {
+    width: 1024px;
+    margin: 0 auto;
   }
   
   /* Center website */
@@ -96,10 +116,9 @@ table {
     padding: 10px;
   }
   
-.homeNav{
-  display :flex;
-  justify-content: center;
-  
+.navbar {
+  float: left;
+}
   
   }
   a{
